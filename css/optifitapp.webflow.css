@@ -7812,7 +7812,8 @@ figcaption {
 }
 
 .splash_screen {
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
   grid-auto-columns: 1fr;
   justify-content: center;
@@ -7820,7 +7821,6 @@ figcaption {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
   display: flex;
-  position: relative;
 }
 
 .section_splash {
@@ -7830,9 +7830,21 @@ figcaption {
 .splash_icon {
   width: 40px;
   height: 40px;
+  flex-flow: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
   display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+.html-embed-2 {
+  width: 100px;
+  height: 100px;
 }
 
 @media screen and (max-width: 991px) {
