@@ -7847,6 +7847,14 @@ figcaption {
   height: 100px;
 }
 
+.div-block-17-copy-copy {
+  height: 100%;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  display: flex;
+  overflow: auto;
+}
+
 @media screen and (max-width: 991px) {
   .padding-xlarge {
     padding: 3rem;
